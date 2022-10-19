@@ -10,8 +10,10 @@
           <include name="SetUp"/>
           <include name="tearDown"/>
           <include name="tearDown"/>
+          <include name="VerifyLogintextTest" invocation-numbers="0"/>
           <include name="logoVerifyTest"/>
           <include name="initializeTestBaseSetup"/>
+          <include name="VerifyLoginurlTest" invocation-numbers="0"/>
           <include name="setUp"/>
         </methods>
       </class> <!-- com.orangeHRM.test.OrangeHRM_Login -->
